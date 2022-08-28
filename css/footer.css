@@ -1,0 +1,145 @@
+/*footer css Yevhen*/
+.footer {
+    background-color: var(--background-color-dark);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 766px) {
+    .footer__container {
+        display: flex;
+        margin-left: 4%;
+        padding: 50px 0 25px 0;
+    }
+
+    .footer__sidebar {
+        padding-left: 16%;
+    }
+
+    .footer__sidebar-content .logo {
+        height: auto;
+        margin: auto;
+        width: 130px;
+    }
+
+    .footer__row {
+        padding: 35px 0 0 0;
+    }
+
+    nav.footer__menu {
+        position: absolute;
+        padding-left: 26%;
+    }
+
+    .footer__divider {
+        border-bottom: 0.1px solid #3e3d3d;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .sub__footer {
+        background-color: var(--background-color-dark);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        padding-left: 20%;
+    }
+
+    .rights,
+    .copiright {
+        color: #a9a9a9;
+        letter-spacing: .1em;
+        font-size: 14px;
+        line-height: 1.4;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        margin: -5px 7px 8px -9px;
+        width: max-content;
+    }
+
+    .sub__footer_right-block {
+        padding-left: 60%;
+        width: 100%;
+    }
+
+    .footer__menu a {
+        color: var(--subtitle-text-color1);
+        text-decoration: none;
+        font-family: Roboto, sans-serif;
+        font-weight: 550;
+        margin-left: 35px;
+    }
+
+    .footer__menu a:hover {
+        color: var(--brand-color);
+    }
+}
+
+/*footer mobile*/
+
+@media (max-width: 765px) {
+    .footer {
+        border-top: 0.1em solid #323232;
+    }
+
+    .footer__sidebar {
+        text-align: center;
+    }
+
+    .footer__sidebar-content {
+        padding-top: 20%;
+        padding-left: 11px;
+    }
+
+    .footer__row {
+        max-width: 66%;
+        padding: 35px 0 25px 28%;
+        text-align: center;
+        line-height: 3;
+    }
+
+    .footer__menu a {
+        color: var(--subtitle-text-color1);
+        text-decoration: none;
+        font-family: Roboto, sans-serif;
+        font-weight: 550;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    nav.footer__menu {
+        text-align: center;
+        display: grid;
+        margin-left: 15px;
+    }
+
+    .footer__container {
+        margin: 0 24px;
+    }
+
+    .footer__divider {
+        border-bottom: 0.1px solid #3e3d3d;
+        position: relative;
+        width: 100%;
+        max-width: 1190px;
+        margin: 0 auto;
+    }
+
+    .rights,
+    .copiright {
+        color: #a9a9a9;
+        letter-spacing: .1em;
+        font-size: 14px;
+        line-height: 1.4;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        margin: 5px 0 10px 10px;
+        text-align: center;
+    }
+
+    .sub__footer {
+        padding-bottom: 10px;
+    }
+}
+
+/*footer mobile end Yevhen*/

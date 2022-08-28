@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Rajdhani:wght@700&family=Roboto&display=swap');
+.blog-hr {
+    margin: auto;
+}
+.blog-red-text {
+    font-family: 'Homemade Apple', cursive;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+.blog-recent-news {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.blog-header-last-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.blog-images {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    height: 350px !important;
+    justify-content: space-around;
+}
+
+.first-image-text {
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.blog-first-img {
+    width: 370px;
+    height: 450px;
+}
+
+
+.first-image-container {
+    position: relative;
+    display: flex;
+}
+
+
+.first-image-data {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin: auto;
+}
+.first-image-second-text {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.read-more-href {
+    position: absolute;
+    
+    bottom: 30px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    
+    font-size: normal;
+    
+    
+}
+
+.new-paragraph-special {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    
+    font-size: x-large;
+    
+}
+
+
+
+.second-image-text {
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.blog-second-img {
+    width: 500px;
+    height: 450px;
+}
+
+
+.second-image-container {
+    position: relative;
+    display: flex;
+    
+}
+
+
+.second-image-data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-top: 250px ;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+    margin: auto;
+}
+.second-image-second-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    padding-top: 300px;
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+
+.second-new-paragraph-special {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    padding-top: 330px;
+    padding-left: 20px;
+    font-size: x-large;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+.third-image-text {
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.blog-third-img {
+    width: 350px;
+    height: 450px;
+    
+}
+
+
+.third-image-container {
+    position: relative;
+    display: flex;
+}
+
+
+.third-image-data {
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    color: white;
+    
+    
+    font-weight: bold;
+    font-size: larger;
+    margin: auto;
+}
+.third-image-second-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    padding-top: 300px;
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+
+.third-new-paragraph-special {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    padding-top: 330px;
+    padding-left: 20px;
+    font-size: x-large;
+    padding-bottom: 80px;
+}
+
+.read-more-href {
+    font-size: small;
+    text-decoration:none;
+}
+
+
+.carousel {
+    padding-top: 200px;
+    
+}
+
+
+.hover-underline-animation {
+    display: inline-block;
+
+    color: 
+  #fff;
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.blog__carousel img{
+    width: 200px;
+    display: block;
+    margin-bottom: 70px;
+    min-height: 20px;
+    max-height: 130px;
+    
+}
+.blog__carousel {
+    display: block;
+    height: 150px;
+}
+
+.carousel__slides {
+    margin: auto;
+}
+
+
+.blog__carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-carousel__btn-next {
+    width: 30px;
+    height: 25px;
+}
+
+.blog-carousel__btn-prev {
+    width: 30px;
+    height: 25px;
+}
+
+
+  
+
+
+

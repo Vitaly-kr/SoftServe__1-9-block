@@ -1,0 +1,158 @@
+
+.pricing {
+	background-color: var(--background-color);
+	padding: 50px 0 100px;
+}
+
+.pricing-content {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.pricing-title {
+	font-family: 'Homemade Apple';
+	font-weight: 400;
+	font-size: 26px;
+	color: var(--brand-color);
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.pricing-sub-title {
+	font-family: Rajdhani;
+	font-size: 47px;
+	text-align: center;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.pricing-sub-title::after {
+	content: '';
+	width: 50px;
+	height: 2px;
+	background-color: var(--brand-color);
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pricing-list {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	list-style: none;
+	margin-top: 60px;
+	flex-wrap: wrap;
+}
+
+.pricing-list > li {
+	padding: 0 15px;
+	display: flex;
+	width: 100%;
+}
+
+@media (min-width: 480px) {
+	.pricing-list > li {
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.pricing-list > li {
+		width: 33%;
+	}
+}
+
+.pricing-item {
+	background: var(--subtitle-text-color1);
+	padding: 40px 37px;
+	box-shadow: 0 4px 13px 0 rgb(28 30 30 / 18%);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.pricing-item-title {
+	text-transform: uppercase;
+	font-family: Rajdhani;
+	font-size: 23px;
+}
+
+.pricing-item-price {
+	font-family: Rajdhani;
+	font-size: 47px;
+	color: var(--brand-color);
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pricing-item-price::after {
+	content: '';
+	width: 50px;
+	height: 2px;
+	background-color: var(--brand-color);
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pricing-time {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.1em;
+	margin-top: 15px;
+}
+.pricing-item-list {
+	padding-left: 25px;
+	margin-top: 20px;
+	flex-grow: 1;
+}
+.pricing-item-list li {
+	font-family: Roboto;
+	font-size: 16px;
+	color: #707070;
+	text-align: left;
+	line-height: 24px;
+	margin-bottom: 16px;
+	padding-left: 5px;
+}
+
+.pricing-item-list li::marker {
+	font-size: 40px;
+	line-height: 24px;
+}
+
+.pricing-item-list li.un-checked {
+	list-style-image: url(../img/un-checked.svg);
+}
+
+.pricing-item-list li.checked {
+	list-style-image: url(../img/checked.svg);
+}
+
+.pricing-button {
+	background-color: var(--brand-color);
+	color: var(--subtitle-text-color1);
+	border: none;
+	margin: 10px;
+	padding: 22px 52px;
+	box-shadow: 0 4px 14px 0 rgb(45 45 45 / 26%);
+	font-size: 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.pricing-button:hover {
+	box-shadow: 0 4px 14px 0 rgb(45 45 45 / 26%);
+	background-color: #16120f;
+	transition: color 0.2s ease-in, background-color 0.2s ease-in, border-color 0.2s ease-in, box-shadow 0.2s ease-in,
+		-webkit-box-shadow 0.2s ease-in;
+}
